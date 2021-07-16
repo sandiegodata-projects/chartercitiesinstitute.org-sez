@@ -1,0 +1,36 @@
+#
+# Configuration for Invoke scripts. This configuration should be rarely used;
+# for s3_bucket and wp_site it is generally better to set these values in the
+# ~/.metapack.yaml file
+# 
+
+
+metapack: 
+
+    # Set this to define the order in which sub directories are built
+    # The easiest way to use it is to run `invoke show-build-order -update`
+    # and add the output here. 
+    # build_order:
+    #     - subdir1
+    #     - subdir2
+
+    # Set this to the S3 bucket where you will publish public data 
+    # packages. You must have a boto or .aws configuration and 
+    # credentials to access the bucket
+    # s3_bucket: library.metatab.org,
+
+    # Set the wordpress site where package documentation and links will 
+    # be published The string is a reference to the `wordpress` section 
+    # in  ~/.metapack.yaml . 
+    # wp_site: data.sandiegodata.org
+   
+    #Groups will become categories when publishing to Wordpress
+    groups:
+        - sez
+
+
+    # Tags are tags when publishing to wordpress.
+    # 'tags': ['county', 'national'], 
+    tags:
+        - sez
+        - special_economic_zones

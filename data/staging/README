@@ -1,0 +1,7 @@
+Staging Directory
+
+Use this directory for creating new data packages, which can then be added
+to git and linked into this repo via `git submodule add`. 
+
+Don't put anything in this directory that you want to keep, as it will not
+be committed to git. 
