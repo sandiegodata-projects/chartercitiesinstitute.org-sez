@@ -325,5 +325,5 @@ dependencies:
     - virtualenv==20.4.7
     - wrapt==1.12.1
     - xlrd==1.2.0
-prefix: /Users/eric/opt/anaconda3/envs/sez
+
 
