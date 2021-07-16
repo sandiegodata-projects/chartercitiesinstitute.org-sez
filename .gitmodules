@@ -1,0 +1,9 @@
+[submodule "data/worldbank.org-sez"]
+	path = data/worldbank.org-sez
+	url = https://github.com/metatab-packages/worldbank.org-sez.git
+[submodule "data/figshare.com-harmonized_ntl"]
+	path = data/figshare.com-harmonized_ntl
+	url = https://github.com/metatab-packages/figshare.com-harmonized_ntl.git
+[submodule "data/berkeley.edu-administrative_boundaries"]
+	path = data/berkeley.edu-administrative_boundaries
+	url = https://github.com/metatab-packages/berkeley.edu-administrative_boundaries.git
