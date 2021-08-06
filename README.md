@@ -21,3 +21,18 @@ Then you can run jupyter-lab and run some of the notebooks:
 
     $ cd ../
     $ jupyter-lab
+    
+### Testing the Environment
+
+You can test that the conda configurations work in Linux under Docker by running: 
+
+    docker run -t -i --rm -v `pwd`:/pwd  continuumio/miniconda3 /bin/bash
+
+From the root of the repository. Then, ``cd /pwd`` will allow you to run all of the
+setup commands above, in a Linux environment. 
+
+
+    $ cd requirements
+    $ conda env create -f conda-linux.yaml
+    $ conda activate sez
+
