@@ -1,7 +1,7 @@
 
 Build with:
 
-    docker build  .  -t sez:latest
+    make build
 
 Run with: 
 

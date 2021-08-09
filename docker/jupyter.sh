@@ -1,3 +1,7 @@
-/bin/bash
+#!/bin/bash
 
-docker run -ti --rm -p 8888:8888 -v `pwd`:/opt/notebooks sez
+
+source /opt/conda/etc/profile.d/conda.sh 
+
+conda activate base
+/opt/conda/bin/jupyter-lab --ip=0.0.0.0 --port=8888 --notebook-dir=/opt/notebooks --allow-root --no-browser
