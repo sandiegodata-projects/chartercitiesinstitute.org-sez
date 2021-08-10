@@ -5,24 +5,18 @@ Nighttime lights analysis for the Charter Cities Institute
 
 ## Setting up environment
 
-To get started, you should set up a conda environment with the environment file in the
-``requirements`` directory, using the ``conda-linux.yaml`` or ``conda-mac.yaml`` files:
+The conda environment files are created using the Makefile in the ``conda-environment``
+submodule; See the README there for how to update the file
 
-    $ cd requirements
-    $ conda env create -f conda-env.yaml
-    $ conda activate sez
+To install these files on a Mac: 
+
+    conda env create -f conda-environment/build/conda-Darwin.yaml -n sez
     
-You can also set a different name for the new environment
+For Linux
 
-    $ conda env create -f conda-env.yaml -n other_name
-    $ conda activate other_name
-    
+    conda env create -f conda-environment/build/conda-linux.yaml -n sez
 
-Then you can run jupyter-lab and run some of the notebooks: 
-
-    $ cd ../
-    $ jupyter-lab
-    
+For other environments you will need to create an environment file
 
 You can also run Jupyter in the conda environment under Docker by running the Makefile in the 
 ``docker`` directory: 

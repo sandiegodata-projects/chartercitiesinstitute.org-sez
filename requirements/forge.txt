@@ -1,9 +1,0 @@
-libcxx
-libcblas
-libgfortran
-libblas
-tzcode
-liblapack
-python_abi
-llvm-openmp
-libcxxabi
