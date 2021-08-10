@@ -21,6 +21,11 @@ For Linux, use the ``conda-linux.yaml`` file:
     
 
 
+conda env create -n _sez -f conda-test.yaml
+conda activate _sez_
+pip install -r requirements.txt 
+
+
 Strip Versions from Export
 --------------------------
 
