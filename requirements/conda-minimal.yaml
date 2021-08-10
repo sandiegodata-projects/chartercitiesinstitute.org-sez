@@ -1,0 +1,19 @@
+# A minimal, versionless conda env file, for building 
+# a version-pinned version of the file
+name: sez
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - geos
+  - cartopy
+  - geopandas
+  - shapely
+  - jupyter
+  - jupyterlab
+  - scipy
+  - h5py
+  - boto3
+ 
