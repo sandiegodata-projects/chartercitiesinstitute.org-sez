@@ -24,4 +24,6 @@ You can also run Jupyter in the conda environment under Docker by running the Ma
    cd docker
    make build # Build the docker image
    make jupyter
+   
+ Then open your browser on http://127.0.0.1:9888/lab
 
