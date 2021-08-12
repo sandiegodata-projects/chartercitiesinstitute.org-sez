@@ -17,6 +17,7 @@ dependencies:
   - h5py
   - boto3
   - pip
+  -rasterio
   - pip:
     - address-parser
     - aniso8601
@@ -54,7 +55,6 @@ dependencies:
     - pyproj
     - python-slugify
     - python-wordpress-xmlrpc
-    - rasterio
     - requests
     - rowgenerators
     - s3transfer
