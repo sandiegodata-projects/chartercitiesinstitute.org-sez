@@ -1,0 +1,70 @@
+# A minimal, versionless conda env file, for building 
+# a version-pinned version of the file
+name: sez
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - geos
+  - cartopy
+  - geopandas
+  - shapely
+  - jupyter
+  - jupyterlab
+  - scipy
+  - h5py
+  - boto3
+  - pip
+  - pip:
+    - address-parser
+    - aniso8601
+    - boto3
+    - botocore
+    - bs4
+    - ckanapi
+    - click-plugins
+    - cligj
+    - codegen
+    - colored
+    - docopt
+    - fiona
+    - fs
+    - geoid
+    - geopandas
+    - invoke
+    - jmespath
+    - latexcodec
+    - livestats
+    - markdown
+    - meta
+    - metapack
+    - metapack-build
+    - metapack-github
+    - metapack-jupyter
+    - metapack-wp
+    - metatab
+    - metatabdecl
+    - munch
+    - nameparser
+    - petl
+    - publicdata-census
+    - pybtex
+    - pyproj
+    - python-slugify
+    - python-wordpress-xmlrpc
+    - rasterio
+    - requests
+    - rowgenerators
+    - s3transfer
+    - seaborn
+    - semantic-version
+    - shapely
+    - tableintuit
+    - tabulate
+    - terminaltables
+    - text-unidecode
+    - tqdm
+    - xlrd
+ 
+
