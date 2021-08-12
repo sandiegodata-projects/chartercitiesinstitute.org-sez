@@ -17,7 +17,7 @@ dependencies:
   - h5py
   - boto3
   - pip
-  -rasterio
+  - rasterio
   - pip:
     - address-parser
     - aniso8601
