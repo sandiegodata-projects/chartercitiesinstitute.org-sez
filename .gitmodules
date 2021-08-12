@@ -7,6 +7,3 @@
 [submodule "data/berkeley.edu-administrative_boundaries"]
 	path = data/berkeley.edu-administrative_boundaries
 	url = https://github.com/metatab-packages/berkeley.edu-administrative_boundaries.git
-[submodule "conda-environment"]
-	path = conda-environment
-	url = https://github.com/sandiegodata/conda-environment.git
