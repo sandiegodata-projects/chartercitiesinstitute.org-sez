@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A project of the [San Diego Regional Data Library](https://sandiegodata.org) to explore the economic impact of Special Economic Zones
   primarily by using changes in nighttime light intensity, as measured by satelite imagery.
 baseurl: "chartercitiesinstitute.org-sez" 
-url: "https://sandiegodata-projects.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sandiegodata-projects.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sandiegodata
 github_username:  ericbusboom
 
