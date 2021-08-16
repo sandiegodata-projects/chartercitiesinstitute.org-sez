@@ -1,11 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+title:  Economic Analysis Using Nighttime Lights
 layout: home
 ---
-
-#  Economic Analysis Using Nighttime Lights
 
 You can use the [editor on GitHub](https://github.com/sandiegodata-projects/chartercitiesinstitute.org-sez/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
