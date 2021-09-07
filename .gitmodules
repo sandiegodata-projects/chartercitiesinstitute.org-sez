@@ -7,3 +7,6 @@
 [submodule "data/berkeley.edu-administrative_boundaries"]
 	path = data/berkeley.edu-administrative_boundaries
 	url = https://github.com/metatab-packages/berkeley.edu-administrative_boundaries.git
+[submodule "data/sandiegodata.org-sez_lights"]
+	path = data/sandiegodata.org-sez_lights
+	url = https://github.com/metatab-packages/sandiegodata.org-sez_lights.git
