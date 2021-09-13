@@ -18,6 +18,7 @@ dependencies:
   - boto3
   - pip
   - rasterio
+  - contextily
   # - nomkl # For "Intel MKL Error"; Fixes https://github.com/dmlc/xgboost/issues/1715
   - pip:
     - address-parser
