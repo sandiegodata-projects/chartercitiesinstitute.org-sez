@@ -15,6 +15,7 @@ For instance, to install these files on a Mac:
 Or, you can create the environment in Anaconda navagator. In the "Environments" click the "import" button 
 import a file for your environment. 
 
+
 You can also run Jupyter in the conda environment under Docker by running the Makefile:
 
    make build # Build the docker image
@@ -22,3 +23,11 @@ You can also run Jupyter in the conda environment under Docker by running the Ma
    
  Then open your browser on http://127.0.0.1:9888/lab
 
+### Troubleshooting Environment Issues
+
+If you have problems with installing the conda environment, or Notebooks don't run correctly, 
+try installing the minimal conda env file; 
+
+    conda env create -f conda-minimal.yaml -n sez
+    
+    
